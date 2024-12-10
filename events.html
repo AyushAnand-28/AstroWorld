@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Astronomical Events</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./events.css">
+  
+  <style>
+    .carousel-inner img, .carousel-inner video {
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+    <div class="header">
+        <div id="logo">
+            <a href="index.html">
+            <div>
+            <img src="./simple-crescent-and-aquarius-constellation-removebg-preview__1_-removebg-preview.png" alt="" height="50">
+            <div>ASTRO WORLD</div>
+            </div>
+            </a>
+        </div>
+        <div id="home">
+            <a href="index.html">
+            <p>HOME</p>
+            </a>
+        </div>
+        <div id="categories" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <p>EXPLORE</p>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="./solarsys.html">Solar System</a></li>
+                <li><a href="./events.html">Astronomical Events</a></li>
+                <li><a href="./blackhole.html">Black Hole</a></li>
+            </ul>
+        </div>
+        <div id="about-us">
+            <a href="aboutus.html">
+            <p>ABOUT US</p>
+            </a>
+        </div>
+        <div id="contact">
+            <a href="contact.html">
+            <p>CONTACT US</p>
+            </a>
+        </div>
+        <div id="search">
+            <a href="">
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/search--v1.png" alt="search--v1"/>
+            </a>
+        </div>
+    </div>
+<div class="container-fluid" style="padding: 0;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <!-- Original Slides -->
+      <div class="item active">
+        <video autoplay muted loop>
+          <source src="./aurora.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption">
+          <h1>Aurora Borealis: Northern Lights</h1>
+          <p>The Northern Lights, or Aurora Borealis, are a natural light display that occurs in high-latitude regions, typically near the Arctic Circle. This mesmerizing phenomenon is caused by the interaction between solar wind—charged particles ejected from the Sun—and Earth’s magnetic field and atmosphere.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <video autoplay muted loop>
+            <source src="./meteor.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        <div class="carousel-caption">
+          <h1>Meteor Shower: Shooting Stars</h1>
+          <p>A meteor shower is often referred to as a display of "shooting stars," though they aren't stars at all! These brilliant streaks of light are caused by tiny pieces of space debris burning up as they enter Earth's atmosphere.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <video autoplay muted loop>
+            <source src="./lunar.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        <div class="carousel-caption">
+          <h1>Lunar Eclipse</h1>
+          <p>A lunar eclipse is a celestial event that occurs when the Earth aligns precisely between the Sun and the Moon, causing Earth's shadow to fall on the Moon. This phenomenon can only happen during a full moon when the Sun, Earth, and Moon are in a straight line or nearly so.</p>
+        </div>
+      </div>
+
+      <!-- New Slides -->
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="./solar.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption1">
+          <h1>Solar Eclipse: Ring of Fire</h1>
+          <p>A solar eclipse occurs when the Moon passes directly between the Earth and the Sun, casting a shadow on Earth and temporarily blocking the Sun's light. This celestial event can only happen during a new moon when the Sun, Moon, and Earth are aligned.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="./supernova.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption">
+          <h1>Supernova: Star Death</h1>
+          <p>A supernova is a powerful and explosive event that occurs at the end of a star's life cycle, resulting in a dramatic increase in brightness followed by a gradual fading. Supernovae release an immense amount of energy, making them some of the most luminous events in the universe.</p>
+        </div>
+      </div>
+
+          </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h1>Astro World</h1>
+      </div>
+      <div class="footer-links">
+        <div class="section">
+          <h3>NAVIGATE</h3>
+          <ul>
+            <li><a href="./solarsys.html">Solar System</a></li>
+                <li><a href="./events.html">Astronomical Events</a></li>
+                <li><a href="./blackhole.html">Black Hole</a></li>
+          </ul>
+        </div>
+        <div class="section">
+          <h3>FOLLOW</h3>
+          <ul>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">LINKEDIN</a></li>
+            <li><a href="#">VIMEO</a></li>
+          </ul>
+        </div>
+        <div class="section">
+          <h3>CONTACT</h3>
+          <ul>
+            <li><a href="./contact.html">GET STARTED</a></li>
+            <li><a href="mailto:support@astrow.com">support@astrow.com</a></li>
+          </ul>
+        </div>
+        <div class="section">
+          <h3>VISIT</h3>
+          <ul>
+            <li>YOUR SPACE HOSTEL</li>
+            <li>SECOND FLOOR ROOM NO 215</li>
+            <li>PORWAL ROAD</li>
+            <LI>PUNE</LI>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>ALL RIGHTS RESERVED. ALL WRONGS RESTORED.</p>
+      <p>© 2024, MADE BY AYUSH ANAND AND ANKIT SINGH</p>
+      <p>DIVE INTO UNIVERSE AND EXPLORE</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

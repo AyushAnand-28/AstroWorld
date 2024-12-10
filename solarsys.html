@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Solar system</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
+  <link rel="stylesheet" href="./solarstyle.css">
+
+  <style>
+    .carousel-inner img, .carousel-inner video {
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+    <div class="header">
+        <div id="logo">
+            <a href="index.html">
+            <div>
+            <img src="./simple-crescent-and-aquarius-constellation-removebg-preview__1_-removebg-preview.png" alt="" height="50">
+            <div>ASTRO WORLD</div>
+            </div>
+            </a>
+        </div>
+        <div id="home">
+            <a href="index.html">
+            <p>HOME</p>
+            </a>
+        </div>
+        <div id="categories" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <p>EXPLORE</p>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="./solarsys.html">Solar System</a></li>
+                <li><a href="./events.html">Astronomical Events</a></li>
+                <li><a href="./blackhole.html">Black Hole</a></li>
+            </ul>
+        </div>
+        <div id="about-us">
+            <a href="aboutus.html">
+            <p>ABOUT US</p>
+            </a>
+        </div>
+        <div id="contact">
+            <a href="contact.html">
+            <p>CONTACT US</p>
+            </a>
+        </div>
+        <div id="search">
+            <a href="">
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/search--v1.png" alt="search--v1"/>
+            </a>
+        </div>
+    </div>
+<div class="container-fluid" style="padding: 0;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <!-- Original Slides -->
+      <div class="item active">
+        <video autoplay muted loop style="object-position:top;object-fit:cover;">
+            <source src="./sun.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        <div class="carousel-caption" style="color:white;">
+          <h1>The Sun: The Heart of Our Solar System</h1>
+          <p>The Sun is the star at the center of our solar system and is the primary source of light and energy for Earth and the other planets. Its immense gravitational pull keeps the solar system's celestial bodies in orbit, making it the anchor of our cosmic neighborhood.</p>
+        </div>
+      </div>
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="./mercury.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption">
+          <h1>Mercury: The Swiftest Planet</h1>
+          <p>Mercury is the smallest and innermost planet in our solar system, orbiting closest to the Sun. Named after the Roman messenger god due to its rapid movement across the sky, Mercury's unique characteristics make it a fascinating subject of study.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <video autoplay muted loop>
+            <source src="./venus.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        <div class="carousel-caption">
+          <h1>Venus: Earth's Twin</h1>
+          <p>Venus, the second planet from the Sun, is often called Earth's twin due to its similar size, mass, and composition. However, its scorching surface temperatures and thick, toxic atmosphere make it a world of extremes and stark contrasts.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <video autoplay muted loop>
+            <source src="./earth.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        <div class="carousel-caption">
+          <h1>Earth: The Blue Planet</h1>
+          <p>Earth, the third planet from the Sun, is our home and the only known place in the universe that harbors life. With its abundant water, diverse ecosystems, and dynamic geology, Earth stands as a unique and vibrant world in the vastness of space.</p>
+        </div>
+      </div>
+
+      <!-- New Slides -->
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="./mars.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption1">
+          <h1>Mars: The Red Planet</h1>
+          <p>Mars, the fourth planet from the Sun, is often referred to as the "Red Planet" due to its striking reddish appearance, caused by iron oxide (rust) on its surface. This captivating planet has long been a source of fascination for scientists and astronomers, offering insights into the past and potential future of planetary exploration.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="./jupiter.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption">
+          <h1>Jupiter: The Gas Giant</h1>
+          <p>Jupiter, the fifth planet from the Sun, is the largest planet in the solar system, earning its title as "The Gas Giant." Named after the king of the Roman gods, Jupiter is a colossal world made primarily of hydrogen and helium. With its stunning system of rings, powerful magnetic field, and dozens of moons, Jupiter is a centerpiece of our solar system's grandeur and complexity.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="./saturn.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption">
+          <h1>Saturn: The Ringed Planet</h1>
+          <p>Saturn, the sixth planet from the Sun, is one of the most iconic and recognizable planets in our solar system due to its stunning and complex system of rings. Known as the "Ringed Planet," Saturn's rings are the largest and most conspicuous in the entire solar system, making it a captivating object of study and admiration.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="./uranus.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption">
+          <h1>Uranus: The Ice Giant</h1>
+          <p>Uranus, the seventh planet from the Sun, is often referred to as an "ice giant" due to its unique composition and cold atmosphere. It is one of the most distant and mysterious planets in our solar system, with distinctive features that set it apart from the other planets. Unlike the gas giants like Jupiter and Saturn, Uranus is primarily composed of substances that are typically classified as "ices," such as water, ammonia, and methane.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <video autoplay muted loop>
+          <source src="./neptune.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="carousel-caption">
+          <h1>Neptune: The Windy Planet</h1>
+          <p>Neptune, the eighth and farthest planet from the Sun, is often called "The Windy Planet" due to its extraordinarily strong winds that are the fastest in the solar system. This distant ice giant is a striking blue world with a dynamic atmosphere, mysterious features, and an array of fascinating moons. Despite its great distance, Neptune continues to captivate astronomers with its extreme weather patterns and beautiful, icy composition.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="explore-btn">
+    <!-- Replace the link with the website you want the button to redirect to -->
+    <a href="https://w21030911.nuwebspace.co.uk/graphics/assessment/" class="btn btn-primary">Explore Solar System!</a>
+  </div>
+<footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h1>Astro World</h1>
+      </div>
+      <div class="footer-links">
+        <div class="section">
+          <h3>NAVIGATE</h3>
+          <ul>
+            <li><a href="./solarsys.html">Solar System</a></li>
+                <li><a href="./events.html">Astronomical Events</a></li>
+                <li><a href="./blackhole.html">Black Hole</a></li>
+          </ul>
+        </div>
+        <div class="section">
+          <h3>FOLLOW</h3>
+          <ul>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">LINKEDIN</a></li>
+            <li><a href="#">VIMEO</a></li>
+          </ul>
+        </div>
+        <div class="section">
+          <h3>CONTACT</h3>
+          <ul>
+            <li><a href="./contact.html">GET STARTED</a></li>
+            <li><a href="mailto:support@astrow.com">support@astrow.com</a></li>
+          </ul>
+        </div>
+        <div class="section">
+          <h3>VISIT</h3>
+          <ul>
+            <li>YOUR SPACE HOSTEL</li>
+            <li>SECOND FLOOR ROOM NO 215</li>
+            <li>PORWAL ROAD</li>
+            <LI>PUNE</LI>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>ALL RIGHTS RESERVED. ALL WRONGS RESTORED.</p>
+      <p>© 2024, MADE BY AYUSH ANAND AND ANKIT SINGH</p>
+      <p>DIVE INTO UNIVERSE AND EXPLORE</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
